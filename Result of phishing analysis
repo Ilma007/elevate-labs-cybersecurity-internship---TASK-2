@@ -1,0 +1,212 @@
+Verdicts
+SpamAssassin
+0.30
+
+    ADMINISTRATOR NOTICE: The query to dbl.spamhaus.org was blocked due to usage of an open resolver. See https://www.spamhaus.org/returnc/pub/ [URI: fonts.googleapis.com] [URI: blog1seguimentmydomaine2bra.me]
+    N/A
+    To: has a malformed address
+    0.10
+    BODY: HTML included in message
+    N/A
+    BODY: HTML has unbalanced "body" tags
+    0.10
+    BODY: Message only has text/html MIME parts
+    0.10
+
+oleid
+N/A
+
+    There is no suspicious OLE file in attachments.
+    N/A
+
+Headers
+Hops
+Hop	From	By	With	Date (UTC)	Delay
+1				2023-09-19T18:35:49Z	
+N/A
+2	137.184.34.4	bn8nam11ft066.mail.protection.outlook.com, 10.13.177.138	microsoft smtp server (version=tls1_2, cipher=tls_ecdhe_rsa_with_aes_256_gcm_sha384) id 15.20.6813.19 via frontend transport	2023-09-19T18:36:44Z	
+a minute
+3	bn8nam11ft066.eop-nam11.prod.protection.outlook.com, 2603:10b6:408:e6:cafe::23	2603:10b6:408:e6::28, bn0pr03ca0023.outlook.office365.com	microsoft smtp server (version=tls1_2, cipher=tls_ecdhe_rsa_with_aes_256_gcm_sha384) id 15.20.6792.28 via frontend transport	2023-09-19T18:36:45Z	
+a few seconds
+4	2603:10b6:408:e6::28, bn0pr03ca0023.namprd03.prod.outlook.com	2603:10b6:806:317::17, sa3pr19mb7370.namprd19.prod.outlook.com	microsoft smtp server (version=tls1_2, cipher=tls_ecdhe_rsa_with_aes_256_gcm_sha384) id 15.20.6792.27	2023-09-19T18:36:45Z	
+N/A
+5	::1, sa3pr19mb7370.namprd19.prod.outlook.com	mn0pr19mb6312.namprd19.prod.outlook.com	https	2023-09-19T18:36:46Z	
+a few seconds
+Basic headers
+Message ID	<20230919183549.39DEA3F725@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06>
+Subject	CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+Date (UTC)	2023-09-19T18:35:49Z
+From	
+To	
+Security headers
+authentication-results	spf=temperror (sender IP is 137.184.34.4) smtp.mailfrom=ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06; dkim=none (message not signed) header.d=none;dmarc=temperror action=none header.from=atendimento.com.br;compauth=fail reason=001
+X headers
+x-incomingtopheadermarker	OriginalChecksum:3B61F64750F88C5569DF38A496B2374685F23D8BC662A6A19B6823B2F6745D54;UpperCasedChecksum:62071BC7A7CF5B0844A7B406B0E9EFCDAA2CB94988E687CF8C56555AD4B52D30;SizeAsReceived:544;Count:9
+x-microsoft-antispam	BCL:9;
+x-eoptenantattributedmessage	84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+x-ms-exchange-organization-authsource	BN8NAM11FT066.eop-nam11.prod.protection.outlook.com
+x-incomingheadercount	9
+x-ms-exchange-organization-network-message-id	b9106deb-bd54-4815-e5c9-08dbb93f5fab
+x-ms-exchange-crosstenant-fromentityheader	Internet
+x-ms-exchange-transport-crosstenantheadersstamped	SA3PR19MB7370
+x-message-info	qZelhIiYnPlgo3oeAkqKQrb/Je8fpvpPmRGjYwLej8PYXc5p/l16IG5I8gDUPoij+JWSvja0BAMLtkgrOcbx5zEN7V98T2UZUZs4k8BX/DcDfI7QJ0t2aouiqx4ENvkR1M3sDKP/XN09+50x9Rxi6onUtDV4eqq36VUi2qAa0zCzkJwjdl3Y9DzNE1OkaWjrHAizeUyMZ/UtK/Pz9zhA2A==
+x-ms-exchange-crosstenant-id	84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+x-ms-exchange-organization-expirationstarttimereason	OriginalSubmit
+x-ms-exchange-crosstenant-network-message-id	b9106deb-bd54-4815-e5c9-08dbb93f5fab
+x-ms-exchange-processed-by-bccfoldering	15.20.6792.025
+x-ms-exchange-organization-expirationintervalreason	OriginalSubmit
+x-ms-publictraffictype	Email
+x-ms-exchange-crosstenant-originalarrivaltime	19 Sep 2023 18:36:44.1298 (UTC)
+x-message-delivery	Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0tMQ==
+x-ms-exchange-crosstenant-rms-persistedconsumerorg	00000000-0000-0000-0000-000000000000
+x-ms-exchange-eopdirect	true
+x-ms-exchange-organization-messagedirectionality	Incoming
+x-ms-exchange-transport-endtoendlatency	00:00:02.6179349
+x-ms-userlastlogontime	9/19/2023 6:25:15 PM
+x-ms-exchange-crosstenant-authas	Anonymous
+x-microsoft-antispam-message-info	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
+x-sid-pra	BANCO.BRADESCO@ATENDIMENTO.COM.BR
+x-ms-traffictypediagnostic	BN8NAM11FT066:EE_|SA3PR19MB7370:EE_|MN0PR19MB6312:EE_
+x-ms-exchange-organization-expirationstarttime	19 Sep 2023 18:36:44.2236 (UTC)
+x-sid-result	NONE
+x-ms-exchange-crosstenant-authsource	BN8NAM11FT066.eop-nam11.prod.protection.outlook.com
+x-ms-office365-filtering-correlation-id	b9106deb-bd54-4815-e5c9-08dbb93f5fab
+x-ms-exchange-organization-expirationinterval	1:00:00:00.0000000
+x-sender-ip	137.184.34.4
+x-ms-exchange-organization-pcl	2
+x-microsoft-antispam-mailbox-delivery	wl:1;pcwl:1;ucf:0;jmr:0;ex:0;psp:0;auth:0;dest:I;OFR:TrustedSenderList;ENG:(5062000305)(920221119095)(90000117)(920221120095)(91040095)(9050020)(9075021)(9100341)(944500132)(2008001134)(4810010)(4910033)(9610028)(9560006)(10180021)(9439006)(9310011)(9220031)(120001);
+x-ms-exchange-organization-authas	Anonymous
+x-ms-exchange-organization-scl	5
+x-eopattributedmessage	0
+Other headers
+mime-version	1.0
+received-spf	TempError (protection.outlook.com: error in processing during lookup of ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06: DNS Timeout)
+content-type	text/html; charset="UTF-8"
+return-path	root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
+content-transfer-encoding	base64
+Bodies
+
+<!DOCTYPE html><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><body style="background-color:rgb(241, 241, 241);">
+
+
+
+	<p style="text-align:center;">
+
+		<font face="Arial" size="2">Para visualizar as imagens deste email. <a href="https://blog1seguimentmydomaine2bra.me/">Clique aqui</a></font>
+
+	</p>
+
+
+
+    
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;500;700&amp;display=swap" rel="stylesheet">
+
+    <title>Pontos Livelo</title>
+
+</head>
+
+<body style="background-color:#eeeeee;">
+
+    <div id="bg" style="width: 602px; margin: 0 auto; padding: 15px;background-color: #fff;">
+
+        <div id="bg" style="width: 100%; margin: 0 auto; padding: 0px 15px 15px 15px; border: 2px solid #e50091;box-sizing: border-box;">
+
+            <div style="text-align: center; margin-bottom: 30px;">
+
+                <img src="header.png" alt="">
+
+            </div>
+
+            <div style="text-align: center;">
+
+                <img src="icone-superior.png" alt="">
+
+            </div>
+
+            <div style="text-align: center;">
+
+                <h1 style="font-family: 'Signika', sans-serif; font-weight: 700;color: #190f55;font-size: 26px;padding-top: 0px;margin-top: 0px;">Banco do Bradesco (Livelo). </h1>
+
+            </div>
+
+            <div>
+
+                <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #707070; font-size: 16px; line-height: 18px;">Você possui <strong style="color:#190f55;">Pontos Livelo com seu cartão Banco do Bradesco</strong> disponíveis para resgate que expiram HOJE, evite a perda destes pontos realizando agora mesmo o resgate da sua Pontuação Visa Infinite.</p>
+
+            </div>
+
+            <div style="margin-bottom:30px;">
+
+                <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #707070; font-size: 16px; line-height: 18px;">Você Clientes <strong style="color:#190f55;">Banco do Bradesco</strong> acumulam pontos livelo todas as vezes que utilizam seus cartões na função débito ou crédito, é rápido e fácil de acumular.</p>
+
+            </div>
+
+
+
+            <div style="background-color:#FF0080; border-radius:20px;margin-bottom: 40px;">
+
+                <table width="100%" cellspacing="0" cellpadding="0">
+
+                    <tr>
+
+                      <td width="60%" style="padding-left:20px;padding-top: 30px; padding-bottom: 30px;">
+
+                        <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #ffff; font-size: 14px; line-height: 18px; margin:0px;padding:0px;"><span style="font-weight: 500;">Troque seus pontos por milhas aéreas</span> </p>
+
+                        <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #ffff; font-size: 14px; line-height: 18px; margin:0px;padding:0px;"><span style="font-weight: 500;">Descontos de até 35% na fatura do cartão</span> </p>
+
+                        <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #ffff; font-size: 14px; line-height: 18px; margin:0px;padding:0px;"><span style="font-weight: 500;"></span></p>
+
+                      </td>
+
+                      <td width="40%" style="padding-right:20px;">
+
+                        <div style="border-left: 1px solid #fff; padding-left:40px;padding-top: 0px;padding-bottom: 0px;">
+
+                            <h2 style="font-family: 'Signika', sans-serif; font-weight: 700;color: #fff;font-size: 36px;padding: 0px;margin: 0px;">92.990</h2>
+
+                            <p style="font-family: 'Signika', sans-serif; font-weight: 300;color: #fff;font-size: 10px;padding: 0px;margin: 0px;">MIL PONTOS ACUMULADOS EXPIRAM HOJE</p>
+
+                        </div>
+
+                      </td>
+
+                    </tr>
+
+                  </table>
+
+            </div>
+
+            <div style="text-align: center;margin-bottom: 70px;">
+
+                <a style="padding:10px 40px;border-radius:20px;text-decoration: none;color: #fff;font-family: 'Signika', sans-serif; font-weight: 500;font-size: 16px;background: linear-gradient(to top,#FF0080,#00b5fc);background-color: #FF0080;" href="https://blog1seguimentmydomaine2bra.me/">Resgatar Agora</a>
+
+            </div>
+
+
+
+            <div>
+
+                <p style="font-family: 'Signika', sans-serif; font-weight: 300; color: #707070; font-size: 12px; line-height: 18px;"><img src="icone-rodape.png" style="float: left;;" alt="">Resgate agora mesmo antes que eles expirem! Aproveite, Troque seus pontos por milhas aereas, Descontos de ate 35% no cartão ou milhares de premios em nosso Catalogo.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+Content-Type	text/html
+Extracted URLs	
+Extracted domains	
